@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "LineageOS/android_kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch" : "lineage-15.1"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-15.1"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "lineage-15.1"
+  }
+]
