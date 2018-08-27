@@ -1,8 +1,8 @@
 [
   {
-    "repository": "LineageOS/android_kernel_xiaomi_sdm660",
+    "repository": "AOSiP-Devices/kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/sdm660",
-    "branch" : "lineage-15.1"
+    "branch" : "oreo-mr1"
   },
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
