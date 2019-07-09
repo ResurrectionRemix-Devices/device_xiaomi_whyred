@@ -1,0 +1,26 @@
+[
+  {
+    "repository" : "SubhrajyotiSen/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi/whyred",
+    "branch": "oreo-firmware",
+    "remote": "github"
+  },
+  {
+    "repository" : "PixelExperience-Devices/kernel_xiaomi_whyred",
+    "target_path": "kernel/xiaomi/whyred",
+    "remote": "github",
+    "branch": "pie-old"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0",
+    "remote": "github"
+  },
+  {
+    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "pie-whyred",
+    "remote": "github"
+  }
+]
