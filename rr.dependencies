@@ -9,7 +9,7 @@
     "repository" : "akhilnarang/whyred",
     "target_path": "kernel/xiaomi/whyred",
     "remote": "github",
-    "branch": "Derp-v5.3"
+    "tag": "Derp-v5.3"
   },
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
