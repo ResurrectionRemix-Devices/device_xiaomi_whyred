@@ -376,7 +376,7 @@
     <ctl name="RDAC2 MUX" value="ZERO" />
 
     <!-- Interpolator chain controls -->
-	<!-- ADD RX Chain Controls --> 
+	<!-- ADD RX Chain Controls -->
 
     <ctl name="RX1 MIX1 INP1" value="ZERO" />
     <ctl name="RX2 MIX1 INP1" value="ZERO" />
@@ -555,12 +555,12 @@
         <path name="low-latency-playback bt-sco" />
     </path>
 
-    <!-- lct add for whatsapp call ring -->    
-    <path name="low-latency-playback speaker-and-bt-sco-wb"> 
-	 <path name="low-latency-playback bt-sco-wb" /> 
-	 <path name="low-latency-playback speaker" /> 
-    </path> 
-    
+    <!-- lct add for whatsapp call ring -->
+    <path name="low-latency-playback speaker-and-bt-sco-wb">
+	 <path name="low-latency-playback bt-sco-wb" />
+	 <path name="low-latency-playback speaker" />
+    </path>
+
     <path name="low-latency-playback speaker-and-hdmi">
         <path name="low-latency-playback hdmi" />
         <path name="low-latency-playback speaker" />
@@ -888,7 +888,7 @@
     <path name="compress-offload-playback4">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia11" value="1" />
     </path>
-	
+
     <path name="compress-offload-playback4 speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia11" value="1" />
     </path>
@@ -958,7 +958,7 @@
     <path name="compress-offload-playback5">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia12" value="1" />
     </path>
-	
+
     <path name="compress-offload-playback5 speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia12" value="1" />
     </path>
@@ -1027,7 +1027,7 @@
     <path name="compress-offload-playback6">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia13" value="1" />
     </path>
-	
+
     <path name="compress-offload-playback6 speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia13" value="1" />
     </path>
@@ -1096,7 +1096,7 @@
     <path name="compress-offload-playback7">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia14" value="1" />
     </path>
-	
+
     <path name="compress-offload-playback7 speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia14" value="1" />
     </path>
@@ -1165,7 +1165,7 @@
     <path name="compress-offload-playback8">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia15" value="1" />
     </path>
-	
+
     <path name="compress-offload-playback8 speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia15" value="1" />
     </path>
@@ -1234,7 +1234,7 @@
     <path name="compress-offload-playback9">
         <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia16" value="1" />
     </path>
-	
+
     <path name="compress-offload-playback9 speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia16" value="1" />
     </path>
@@ -1371,7 +1371,7 @@
         <ctl name="INT0_MI2S_RX Port Mixer SLIM_8_TX" value="1" />
         <ctl name="INT0_MI2S_RX_DL_HL Switch" value="1" />
     </path>
-	
+
     <path name="play-fm speaker">
         <ctl name="SLIMBUS_8 LOOPBACK Volume" value="1" />
         <ctl name="PRI_MI2S_RX Port Mixer SLIM_8_TX" value="1" />
@@ -1999,7 +1999,7 @@
     <path name="handset">
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RDAC2 MUX" value="RX1" />
-        <ctl name="RX1 Digital Volume" value="83" />
+        <ctl name="RX1 Digital Volume" value="92" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="EAR_S" value="Switch" />
     </path>
@@ -2065,10 +2065,10 @@
 
     <path name="headphones-karaoke">
         <path name="headphones" />
-	<ctl name="RX1 MIX2 INP1" value="IIR1" /> 
-	<ctl name="RX2 MIX2 INP1" value="IIR1" /> 
-	<ctl name="IIR1 INP1 Volume" value="80" /> 
-	<ctl name="IIR1 INP2 Volume" value="80" /> 
+	<ctl name="RX1 MIX2 INP1" value="IIR1" />
+	<ctl name="RX2 MIX2 INP1" value="IIR1" />
+	<ctl name="IIR1 INP1 Volume" value="80" />
+	<ctl name="IIR1 INP2 Volume" value="80" />
     </path>
 
     <path name="true-native-mode">
@@ -2143,7 +2143,7 @@
         <path name="headphones-ce" />
         <path name="speaker" />
     </path>
-    
+
     <path name="speaker-and-headphones-no-ce">
     <path name="headphones-no-ce" />
     <path name="speaker" />
@@ -2304,7 +2304,7 @@
     <path name="voice-dmic-ef">
         <path name="dmic-endfire" />
     </path>
-    
+
     	<path name="voice-speaker-tmic">
         <path name="dmic-endfire" />
     </path>
