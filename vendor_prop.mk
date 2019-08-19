@@ -71,6 +71,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # GPU
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.is_type=5 \
+    persist.camera.googfd.enable=1 \
+    persist.camera.logical.default=1 \
+    persist.camera.gzoom.at=0
+
+# IMS
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=c2d \
     debug.mdpcomp.idletime=600 \
